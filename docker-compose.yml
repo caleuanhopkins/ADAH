@@ -24,7 +24,7 @@ services:
       - php
 
   php:
-    image: phalconphp/php-fpm:7-min
+    build: .
     links:
       - db
     volumes:

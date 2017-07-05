@@ -7,7 +7,7 @@ use Phalcon\Mvc\Model\Message;
 use Phalcon\Mvc\Model\Validator\Uniqueness;
 use Phalcon\Mvc\Model\Validator\InclusionIn;
 
-class Agencies extends Model
+class Agency extends Model
 {
     public function validation()
     {

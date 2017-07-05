@@ -10,7 +10,8 @@ services:
       - MYSQL_USER=admin
       - MYSQL_PASSWORD=admin
     volumes:
-      - /Users/callum/Documents/ADAH/db/docker-data:/var/lib/mysql
+      - ./db/adah.sql:/docker-entrypoint-initdb.d/adah.sql
+      - ./db/data/docker-data:/var/lib/mysql
 
   web:
     image: nginx:latest

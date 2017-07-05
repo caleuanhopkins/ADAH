@@ -61,4 +61,4 @@ typings/
 .idea
 
 db/docker-data/*
-db/*
+db
